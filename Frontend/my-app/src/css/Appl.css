@@ -1,0 +1,67 @@
+.pre-btn{
+   border-radius: 40px;
+   border: solid;
+   margin-right: 70px;
+   transition: 2 ms;
+   margin-top: 20px;
+   margin-left: 120px;
+   margin-right: 10px;
+   font-size: medium;
+   font-style: oblique;
+   font-weight: bolder;
+   background-color: blueviolet;
+   border-color: blueviolet;
+}
+.pre-btn:active{
+    background-color: rgb(61, 180, 180);
+}
+body{
+    background-color: rgba(83, 156, 156,0.5);
+}
+.container{
+    position: absolute;
+    background-color:rgba(234, 240, 239, 0.664);
+    width: 600px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+    
+    
+
+}
+.score-container{
+    position: absolute;
+    background-color:rgba(234, 240, 239, 0.349);
+    width: 300px;
+   justify-items: center;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+.question{
+    margin-top: 40px;
+    margin-left: 190px;
+    width: 300px;
+    font-size: large;
+    position: relative;
+    font-weight: 1000;
+   
+}
+.option{
+   display: inline;
+    
+}
+.radio1{
+    display: inline;
+    margin-left: 280px;
+}
+button{
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+.smt-btn{
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    margin-left: 100px;
+}

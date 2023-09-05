@@ -1,0 +1,24 @@
+.welcome-container{
+    display: inline;
+    position: absolute;
+    background-color: rgba(62, 15, 138, 0);
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+    
+    
+
+}
+p{
+    
+    font-size: 20px;
+    padding-bottom: 0px;
+    background-color: yellowgreen;
+}
+input{
+    margin-top: 0px;
+    margin-bottom: 11px;
+    border-style: solid;
+    display: flex;
+    
+}
